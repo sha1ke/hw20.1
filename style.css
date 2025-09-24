@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#title {
+    margin: 0;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+#main-content {
+    margin: 0;
+}
+
+#name {
+    color: #333;
+    text-align: center;
+}
+
+#photo {
+    display: block;
+    margin: 20px auto;
+}
+
+.bio {
+    line-height: 1.6;
+}
+
+#info-title {
+    margin-top: 30px;
+}
+
+.info-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#contact-title {
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-intro {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#gallery-title {
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gallery-table {
+    width: auto;
+    margin: 0;
+}
+
+.gallery-table td {
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.gallery-figure {
+    margin: 0;
+}
+
+.gallery-img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-img:hover {
+    opacity: 0.8;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+    text-align: center;
+    margin-top: 5px;
+}
+
+figcaption a {
+    text-decoration: none;
+    color: inherit;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
